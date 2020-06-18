@@ -1,0 +1,12 @@
+{
+    "author": "Angel Garcia",
+    "classifications": [ "Multiplatform" ],
+    "name": "Clean Architecture Structure for Xamarin Forms Apps using Prism",
+    "identity": "CleanArchitectureXamarinPrism", 
+    "shortName": "cleanxam",                 
+    "tags": {
+        "language": "C#"                      
+    },
+    "sourceName": "PrismCleanApp", 
+    "preferNameDirectory" : "true"
+}
