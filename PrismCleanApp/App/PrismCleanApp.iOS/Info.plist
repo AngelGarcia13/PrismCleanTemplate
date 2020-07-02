@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>PrismCleanApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.hiberus.PrismCleanApp</string>
+	<string>com.company.PrismCleanApp</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
