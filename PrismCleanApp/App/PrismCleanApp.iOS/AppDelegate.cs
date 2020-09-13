@@ -24,6 +24,9 @@ namespace PrismCleanApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            #if ENABLE_TEST_CLOUD
+                Xamarin.Calabash.Start();
+            #endif
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App(new iOSInitializer()));
 

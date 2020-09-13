@@ -28,7 +28,7 @@ namespace PrismCleanApp.UITests
         [Test]
         public void WelcomeTextIsDisplayed()
         {
-            AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin Forms and Prism!"));
+            AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin Forms and Prism with Clean Architecture!"));
             app.Screenshot("Welcome screen.");
 
             Assert.IsTrue(results.Any());
